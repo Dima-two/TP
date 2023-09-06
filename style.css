@@ -22,7 +22,7 @@
 }
   
 #notes_sap:after {
-    content: 'Săptămâna';
+    content: 'Subgrupa';
     font-size: 10px;
     position: relative;
     color: white;
@@ -40,7 +40,7 @@
 }
   
 #notes_sub:after {
-    content: 'Subgrupa';
+    content: 'Săptămâna';
     font-size: 10px;
     position: relative;
     color: white;

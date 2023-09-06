@@ -70,6 +70,7 @@
 .sel :hover {
     border-color: white;
     scale: 1.025;
+    z-index: 99;
 }
 
 tr, th {

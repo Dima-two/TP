@@ -13,7 +13,7 @@
 #notes_sap {
     display: inline-block;
     border: none;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dashed white;
     overflow: visible;
     text-align: right;
     width: 45px;
@@ -22,7 +22,7 @@
 }
   
 #notes_sap:after {
-    content: 'Subgrupa';
+    content: 'Săptămâna';
     font-size: 10px;
     position: relative;
     color: white;
@@ -32,7 +32,7 @@
 #notes_sub {
     display: inline-block;
     border: none;
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dotted white;
     overflow: visible;
     text-align: right;
     width: 39px;
@@ -40,7 +40,7 @@
 }
   
 #notes_sub:after {
-    content: 'Săptămâna';
+    content: 'Subgrupa';
     font-size: 10px;
     position: relative;
     color: white;
@@ -70,7 +70,6 @@
 .sel :hover {
     border-color: white;
     scale: 1.025;
-    z-index: 99;
 }
 
 tr, th {
